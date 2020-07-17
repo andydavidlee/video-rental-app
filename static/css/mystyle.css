@@ -1,0 +1,127 @@
+body {
+    background-color: #141414 !important;
+  }
+
+h1 {
+    font-family: 'Arial Black', cursive;
+    text-align: left;
+    color: white;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family: 'Lexend Tera', sans-serif;
+    color: white;
+}
+
+h4 {
+  font-family: 'Sriracha', cursive;
+  color: #fff200;
+}
+
+h5 {
+  font-family: 'Sriracha', cursive;
+  color: white;
+}
+
+p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: large;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* visited link */
+.navbar a:visited {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+.navbar a:hover {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+.navbar  a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+#navigation {    
+    background-color: #0c0c0c;
+}
+
+input[type=text] {
+    background-color: #141414;
+}
+
+#maintitle {
+    z-index: 1;
+    position: absolute;
+    margin-left: 15vw;
+    margin-top: 20%;
+    font-size: 100px;
+  }
+
+  #maintitle p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: large;
+    text-align: left;
+    color: white;
+}
+
+#carousel {
+z-index: -1;
+}
+
+footer {
+  background-color: #0c0c0c;
+}
+
+footer a {
+    color: #3b3b3b;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* visited link */
+footer a:visited {
+    color: #3b3b3b;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  footer a:hover {
+    color: gray;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  footer  a:active {
+    color: #3b3b3b;
+    text-decoration: none;
+  }
+
+  #image-row {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width:  265px;
+  }
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  margin-bottom: 8px;
+  bottom: 8px;
+  right: 16px;
+}
